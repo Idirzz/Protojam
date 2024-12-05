@@ -1,4 +1,5 @@
 import "/src/imagecss/image.css";
+
 export default function image() {
   return (
     <section className="image">
