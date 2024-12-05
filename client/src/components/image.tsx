@@ -1,6 +1,6 @@
 import "/src/imagecss/image.css";
 
-export default function image() {
+export default function Image() {
   return (
     <section className="image">
       <img
