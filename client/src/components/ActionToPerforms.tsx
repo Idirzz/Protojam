@@ -1,4 +1,4 @@
-import "./ActionToPerforms.css"; // Gardons le même fichier de styles
+import "./ActionToPerforms.css";
 
 const Card = () => {
   return (
