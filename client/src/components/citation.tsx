@@ -1,6 +1,6 @@
 import "/src/citationcss/citation.css";
 
-export default function Footer() {
+export default function citation() {
   return (
     <body>
       <section className="citation">
