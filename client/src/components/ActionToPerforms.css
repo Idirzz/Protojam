@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@400;500;600&display=swap");
+
 .main-card {
   display: flex;
   flex-direction: column;
@@ -10,19 +12,19 @@
 .card {
   width: 700px;
   height: 400px;
-  background-color: #f8f8f8;
+  background-color: #223d3f;
   border-radius: 20px;
   padding: 20px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   display: flex;
   justify-content: center;
   align-items: center;
-  font-family: Arial, sans-serif;
+  font-family: "Montserrat Alternates", sans-serif;
   overflow: hidden;
 }
 
 .card p {
-  font-size: 16px;
-  color: #333;
+  font-size: 24px;
+  color: white;
   line-height: 1.5;
 }
