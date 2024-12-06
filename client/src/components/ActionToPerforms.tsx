@@ -14,9 +14,7 @@ const Card = () => {
         </p>
       </div>
 
-      {/* Section des images en dessous de la carte */}
       <div className="image-container">
-        {/* Première carte image */}
         <div className="image-card">
           <Link to="/empty">
             {/* Lien vers la page vide */}
@@ -27,7 +25,6 @@ const Card = () => {
           </Link>
         </div>
 
-        {/* Deuxième carte image */}
         <div className="image-card">
           <Link to="/empty">
             {/* Lien vers la page vide */}

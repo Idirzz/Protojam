@@ -11,7 +11,6 @@ body {
   font-family: "Montserrat Alternates", sans-serif;
 }
 
-/* Style du conteneur principal .main-card */
 .main-card {
   display: flex;
   flex-direction: column;
@@ -19,10 +18,8 @@ body {
   align-items: center;
   text-align: center;
   width: 700px;
-  /* Ajuste la largeur à 700px */
 }
 
-/* Style du cadre contenant la phrase */
 .card {
   width: 700px; /* Largeur de 700px */
   height: 300px; /* Hauteur de 300px */
@@ -40,14 +37,12 @@ body {
   margin-bottom: 20px;
 }
 
-/* Section des images */
 .image-container {
   display: flex;
   justify-content: center;
   margin-top: 20px;
   gap: 20px;
 
-  /* Style des cartes d'image */
   .image-card {
     width: 200px;
     height: 200px;
@@ -59,7 +54,6 @@ body {
     border: none;
   }
 
-  /* Style de l'image à l'intérieur de la carte */
   .image-card img {
     width: 100%;
     height: 100%;
@@ -67,12 +61,10 @@ body {
     transition: transform 0.3s ease-in-out;
   }
 
-  /* Effet loupe sur l'image au survol */
   .image-card:hover img {
     transform: scale(1.1);
   }
 
-  /* Lien sur la carte d'image */
   .image-card a {
     position: absolute;
     top: 0;

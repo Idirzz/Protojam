@@ -1,4 +1,4 @@
-import "/src/imagecss/image.css";
+import "../image/téléchargement.jpg";
 
 export default function Image() {
   return (
