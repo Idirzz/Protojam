@@ -1,21 +1,20 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@400;500;600&display=swap");
 
-/* Applique un style global pour centrer le contenu sur la page */
 body {
   margin: 0;
   padding: 0;
-  height: 100vh; /* Utilise toute la hauteur de la fenêtre */
+  height: 100vh;
   display: flex;
-  justify-content: center; /* Centrer horizontalement */
-  align-items: center; /* Centrer verticalement */
-  background-color: #f4f4f4; /* Optionnel, pour donner un fond à la page */
+  justify-content: center;
+  align-items: center;
+  background-color: #f4f4f4;
 }
 
 /* Styles de la carte principale */
 .card {
   width: 700px;
   height: 400px;
-  background-color: #223d3f; /* Couleur de fond de la carte principale */
+  background-color: #223d3f;
   border-radius: 20px;
   padding: 20px;
   display: flex;
@@ -23,12 +22,12 @@ body {
   align-items: center;
   font-family: "Montserrat Alternates", sans-serif;
   overflow: hidden;
-  text-align: center; /* Centrer le texte à l'intérieur */
+  text-align: center;
 }
 
 .card p {
   font-size: 24px;
-  color: white; /* Couleur du texte en blanc */
+  color: white;
   line-height: 1.5;
   margin: 0;
 }
@@ -37,47 +36,46 @@ body {
 .image-card {
   width: 200px;
   height: 200px;
-  background-color: transparent; /* Fond transparent pour les cartes d'image */
+  background-color: transparent;
   border-radius: 10px;
   margin: 10px;
   overflow: hidden;
   position: relative;
-  transition: transform 0.3s ease-in-out; /* Transition douce pour l'effet loupe */
-  border: none; /* S'assurer qu'il n'y a pas de bordure par défaut */
+  transition: transform 0.3s ease-in-out;
+  border: none;
 }
 
 /* Style de l'image à l'intérieur de la carte */
 .image-card img {
   width: 100%;
   height: 100%;
-  object-fit: cover; /* L'image couvre toute la carte sans déformation */
-  transition: transform 0.3s ease-in-out; /* Transition pour l'effet loupe */
-  display: block; /* Faire en sorte que l'image se comporte comme un bloc */
-}
-
-/* Effet loupe sur l'image au survol */
-.image-card:hover img {
-  transform: scale(1.1); /* Agrandir l'image légèrement */
-}
-
-.image-card a {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
+  object-fit: cover;
+  transition: transform 0.3s ease-in-out;
   display: block;
-  z-index: 2;
-  text-decoration: none; /* Enlever les soulignés de lien */
-}
 
-/* Conteneur de la section des images */
-.main-card .image-container {
-  display: flex;
-  justify-content: center;
-  margin-top: 20px; /* Espacement entre la carte principale et les cartes d'image */
-}
+  /* Effet loupe sur l'image au survol */
+  .image-card:hover img {
+    transform: scale(1.1);
+  }
 
-.main-card .image-container .image-card {
-  margin: 0 10px; /* Espacement entre les cartes d'image */
+  .image-card a {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: block;
+    z-index: 2;
+    text-decoration: none;
+  }
+
+  /* Conteneur de la section des images */
+  .main-card .image-container {
+    display: flex;
+    justify-content: center;
+  }
+
+  .main-card .image-container .image-card {
+    margin: 0 10px;
+  }
 }

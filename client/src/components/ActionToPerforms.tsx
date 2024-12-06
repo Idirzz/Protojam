@@ -1,4 +1,4 @@
-import { Link } from "react-router-dom"; // Importer Link pour la navigation
+import { Link } from "react-router-dom";
 import "./ActionToPerforms.css";
 
 const Card = () => {
