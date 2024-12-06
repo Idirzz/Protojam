@@ -1,5 +1,7 @@
+
 import image_bienveillante from "/public/image/image_bienveillante.jpg";
 import "./image.css";
+
 export default function Image() {
   return (
     <img
