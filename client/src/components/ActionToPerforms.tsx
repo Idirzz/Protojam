@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom"; // Importer Link pour la navigation
 import "./ActionToPerforms.css";
 
 const Card = () => {
@@ -6,12 +7,36 @@ const Card = () => {
       {/* Card principale avec texte lorem */}
       <div className="card">
         <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur
-          vehicula dapibus magna, et tincidunt orci tincidunt eu. Lorem ipsum
-          dolor sit amet consectetur adipisicing elit. Deleniti minus nesciunt
-          similique rem aspernatur qui commodi velit laboriosam molestias maxime
-          ut tempore, autem optio ab obcaecati! Praesentium esse ut dignissimos?
+          "Faites tout le bien que vous pouvez, par tous les moyens que vous
+          pouvez, de toutes les manières que vous pouvez, dans tous les endroits
+          que vous pouvez, à toutes les personnes que vous pouvez, aussi
+          longtemps que vous le pouvez"– John Wesley
         </p>
+      </div>
+
+      {/* Section des images en dessous de la carte */}
+      <div className="image-container">
+        {/* Première carte image */}
+        <div className="image-card">
+          <Link to="/empty">
+            {/* Lien vers la page vide */}
+            <img
+              src="https://i.ibb.co/fMW0s22/rb-31979-1.png"
+              alt="Validation"
+            />
+          </Link>
+        </div>
+
+        {/* Deuxième carte image */}
+        <div className="image-card">
+          <Link to="/empty">
+            {/* Lien vers la page vide */}
+            <img
+              src="https://i.ibb.co/MpcZGW2/rb-31979-2.png"
+              alt="NotValidation"
+            />
+          </Link>
+        </div>
       </div>
     </div>
   );
