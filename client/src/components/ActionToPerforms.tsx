@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom";
 import "./ActionToPerforms.css";
+import "./image/";
 
 const Card = () => {
   return (
@@ -10,7 +11,8 @@ const Card = () => {
           "Faites tout le bien que vous pouvez, par tous les moyens que vous
           pouvez, de toutes les manières que vous pouvez, dans tous les endroits
           que vous pouvez, à toutes les personnes que vous pouvez, aussi
-          longtemps que vous le pouvez"– John Wesley
+          longtemps que vous le pouvez"– <br />
+          John Wesley
         </p>
       </div>
 

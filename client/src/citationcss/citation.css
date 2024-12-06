@@ -1,0 +1,14 @@
+.KindnessImage {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 700px;
+}
+
+.KindnessImage img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 15px;
+}
