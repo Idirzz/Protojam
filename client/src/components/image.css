@@ -1,0 +1,10 @@
+.image-bienveillante {
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  /* display: flex;
+  justify-content: center;
+  align-content: center; */
+}
